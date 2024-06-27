@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    background-color: white;
+}
+
+.fui1 {
+    background-image: url(../imagen/estadio.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topo {
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 1280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 54px;
+    height: 68px;
+}
+
+.logol {
+    width: 54px;
+    height: 68px;
+}
+
+menu {
+    display: flex;
+    gap: 56px;
+}
+
+menu li {
+    list-style-type: none;
+}
+
+menu li a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+menu li a:visited {
+    color: white;
+}
+
+menu li a:hover {
+    color: red;
+    transition: 0, 50s;
+}
+
+main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+a.btn:link,
+a.btn:visited {
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: red;
+    transition: 0.5s;
+}
+
+main {
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.produtos {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem {
+    width: 198px;
+    width: 198px;
+}
+
+.imagem img {
+    width: 100%;
+}
+
+.produto {
+    width: 238px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.compra {
+    display: flex;
+    height: 20px;
+}
+
+.compra img {
+    display: flex;
+}
+
+.blu {
+    width: 153px;
+    height: 153px;
+}
+
+.decriçao {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.patrocinio {
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.pat-logo {
+    width: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 1280px;
+    min-height: 600px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.noticia1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticia {
+    width: 100%;
+    display: flex;
+}
+
+.noticia img {
+    width: 100%;
+}
+
+.texto {
+    width: 1280px;
+}
+
+.escolhas {
+    width: 1280px;
+    display: flex;
+    gap: 15px;
+    padding: 23px;
+}
+
+.noticia1 .img {
+    width: 100%;
+    width: 500px;
+    height: 375px;
+}
+
+.text-noticia {
+    color: black;
+    font: 14px raleway, sans-serif;
+    margin: 0px 0px 16px;
+    width: 609.98px;
+    height: 78.38px;
+}
+
+section {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mini {
+    width: 100px;
+    height: 140px;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mini:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+}
+
+.mini img {
+    width: 100%;
+    border-radius: 400px;
+}
+
+.fotinha {
+    width: 700px;
+    height: 225px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 400px;
+}
+
+.fotona {
+    width: 200px;
+    height: 50px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: black;
+    margin: 10px 0;
+    border: solid black;
+    border-radius: 200px;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.nomejoga {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
+
+.nomejoga h1 {
+    padding: 10px;
+}
+
+.comprei {
+    display: flex;
+    display: inline-block;
+}
+
+.flex-box {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    gap: 80px;
+}
+
+.big-img {
+    width: 350px;
+}
+
+.big-img img {
+    width: inherit;
+}
+
+.imagemns {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.small-img {
+    width: 70px;
+}
+
+.small-img img {
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.small-img:hover img {
+    transform: scale(1.2);
+}
+
+.pname {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.ratings {
+    color: rgb(255, 136, 0);
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.size {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.prize p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.psize {
+    width: 70px;
+    height: 30px;
+    border: 1px solid red;
+    color: black;
+    text-align: center;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.psize .active {
+    border-width: 1.5px;
+    color: red;
+    font-weight: 500;
+}
+
+.quantidaes {
+    display: flex;
+    margin-top: 15px;
+}
+
+.quantidaes input {
+    width: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.btn-box {
+    display: flex;
+    margin-top: 40px;
+}
+
+.btn-box button {
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+.cart-btn {
+    background-color: red;
+    margin-right: 20px;
+}
+
+.cart-btn:hover {
+    color: #0c0b0b;
+}
+
+.buy-btn {
+    background-color: red;
+}
+
+.cart-btn:hover {
+    background-color: red;
+}
+
+.buy-btn:hover {
+    color: #0c0b0b;
+}
+
+.sp {
+    width: 100%;
+    display: flex;
+}
+
+.jogador {
+    width: 100%;
+    height: 100%;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+}
